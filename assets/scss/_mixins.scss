@@ -1,0 +1,79 @@
+// Mixin / Function
+@mixin circle($dimention, $bgc) {
+  border-radius: 50%;
+  width: $dimention;
+  height: $dimention;
+  background-color: $bgc;
+}
+@mixin angle() {
+  width: 20px;
+  height: 20px;
+  border: 1px solid;
+}
+
+// Borders
+@mixin borderVertical($width, $height, $bgc) {
+  width: $width;
+  height: $height;
+  background-color: $bgc;
+}
+
+// == Icons == \\
+// Arrow Icon
+@mixin arrow($size, $borderSize, $borderColor, $direction) {
+  border-top: $borderSize solid $borderColor;
+  border-left: $borderSize solid $borderColor;
+  width: $size;
+  height: $size;
+  display: inline-block;
+  // Up
+  @if $direction == up {
+    transform: rotate(45deg);
+  }
+  // Right
+  @else if $direction == right {
+    transform: rotate(135deg);
+  }
+  // Bottom
+  @else if $direction == down {
+    transform: rotate(225deg);
+  }
+  // Left
+  @else {
+    transform: rotate(315deg);
+  }
+}
+
+// == Utilities == \\
+@mixin center-self {
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+}
+@mixin center-self-X {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+@mixin center-self-Y {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+@mixin mx($size) {
+  margin-left: $size;
+  margin-right: $size;
+}
+@mixin my($size) {
+  margin-top: $size;
+  margin-bottom: $size;
+}
+@mixin px($size) {
+  padding-left: $size;
+  padding-right: $size;
+}
+@mixin py($size) {
+  padding-top: $size;
+  padding-bottom: $size;
+}

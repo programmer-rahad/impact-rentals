@@ -1,0 +1,86 @@
+/* === Reset === */
+
+// Fonts
+:root {
+    --primary-font-size: 18px;
+    --primary-font: 'Red Hat Display';
+    --black-1: #333;
+}
+html,
+body {
+    font-family: var(--primary-font);
+    line-height: 1.2;
+    font-weight: 400;
+    background-color: #fff;
+    height: 100%;
+}
+body {
+    font-size: var(--primary-font-size);
+}
+a {
+    display: inline-block;
+    text-decoration: none;
+    transition-duration: 0.4s;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin-bottom: 0;
+    font-weight: 600;
+    line-height: 1.2;
+    font-family: var(--title-font);
+    font-weight: 600;
+}
+p {
+    margin-bottom: 0;
+}
+button {
+    padding: 0;
+}
+img {
+    max-width: 100%;
+    display: inline-block;
+    object-fit: cover;
+}
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+label {
+    cursor: pointer;
+}
+input {
+    width: 100%;
+    outline: none;
+    border: 0;
+}
+button {
+    border: 0;
+}
+span {
+    // display: inline-block;
+}
+sup {
+    top: -0.185em;
+}
+.btn-close:focus {
+    box-shadow: none;
+}
+video {
+    width: 100%;
+    object-fit: cover;
+    display: block;
+}
+.container {
+    max-width: 1450px;
+    padding-left: 14px;
+    padding-right: 14px;
+}
+.container-fluid {
+    padding-left: 14px;
+    padding-right: 14px;
+}

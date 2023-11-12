@@ -1,0 +1,321 @@
+@media (min-width: 576px) {
+    .navbar {
+        padding-bottom: 25px;
+    }
+    .navbar-brand img {
+        height: 45px;
+    }
+    .welcome-video {
+        margin-top: 109.25px;
+    }
+}
+@media (min-width: 768px) {
+    header {
+        border-bottom-width: 12px;
+    }
+    .navbar-brand img {
+        height: 50px;
+    }
+    .welcome-video {
+        margin-top: 119.25px;
+    }
+}
+@media (min-width: 992px) {
+    .navbar-collapse ul:first-child li {
+        margin-left: 20px;
+    }
+    .welcome-video {
+        margin-top: 173.93px;
+    }
+    .dropdown-menu {
+        padding-top: 24px;
+    }
+    .dropdown:hover .dropdown-menu {
+        display: block;
+    }
+    .nav-item {
+        margin-left: 27px;
+    }
+    .navbar-brand img {
+        height: 55px;
+    }
+    .rental-equipment form {
+        margin-left: 55px;
+    }
+}
+@media (min-width: 1200px) {
+    .navbar-brand img {
+        height: 100px;
+    }
+    .rental-equipment {
+        margin-top: -40px;
+    }
+    .rental-equipment .container {
+        padding-left: 60px;
+        padding-right: 60px;
+        max-width: 1520px;
+    }
+}
+@media (min-width: 1700px) {
+    .impact-promise .container > div {
+        max-width: 700px;
+        padding-right: 140px;
+    }
+}
+@media (min-width: 1900px) {
+    .impact-promise .container > div {
+        max-width: 800px;
+        padding-right: 200px;
+    }
+}
+@media (max-width: 1430.98px) {
+    .ready-to-rent {
+        background-size: 550px auto;
+    }
+}
+@media (max-width: 1199.98px) {
+    .welcome-video .play-btn {
+        bottom: 60px;
+        right: 55px;
+        font-size: 17px;
+    }
+    .welcome-video .play-btn img {
+        width: 38px;
+    }
+    .welcome-video .play-btn .scroll-btn {
+        bottom: 50px;
+        font-size: 14px;
+    }
+    .equipment-categories .ec-buttons li::after {
+        bottom: 9px;
+    }
+    .ready-to-rent {
+        background-size: 450px auto;
+    }
+    footer .btn {
+        font-size: 27px;
+        min-width: 280px;
+        min-height: 60px;
+    }
+}
+@media (max-width: 991.98px) {
+    header aside {
+        position: fixed;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        background-color: #000;
+        top: calc(-100% - 100px);
+        z-index: 1;
+        display: block;
+        transition-duration: 1s;
+    }
+    header aside > div {
+        padding-left: 30px;
+        padding-right: 30px;
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        left: 0;
+        overflow-y: auto;
+        margin-top: 65px;
+        padding-bottom: 100px;
+        padding-top: 5px;
+    }
+    header aside .close-btn {
+        border: 0;
+        background: rgba(0, 0, 0, 0);
+        position: absolute;
+        right: 18px;
+        top: 20px;
+    }
+    header aside .close-btn svg {
+        color: #fff;
+        transform: scale(1.5);
+    }
+    header aside.active {
+        top: 0;
+    }
+    header form {
+        margin-top: 12px;
+        margin-bottom: 0;
+    }
+    header nav + form.d-flex {
+        display: none !important;
+    }
+    header form button {
+        background-color: rgba(0, 0, 0, 0);
+        padding: 13px 17px;
+    }
+    header form input {
+        background-color: rgba(0, 0, 0, 0);
+        padding: 8px 23px;
+    }
+    .dropdown-menu {
+        top: 4% !important;
+    }
+    .dropdown-item {
+        padding: 13px 18px !important;
+        font-size: 15px;
+    }
+    .welcome-video h2 {
+        font-size: 55px;
+    }
+    .welcome-video p {
+        font-size: 18px;
+    }
+    .welcome-video .play-btn {
+        bottom: 50px;
+        right: 40px;
+        font-size: 15px;
+    }
+    .welcome-video .scroll-btn {
+        bottom: 50px;
+    }
+    .equipment-categories h2 {
+        font-size: 45px;
+    }
+    .equipment-categories .ec-buttons li {
+        font-size: 18px;
+        padding-bottom: 8px;
+        margin-bottom: 20px;
+    }
+    .impact-promise {
+        position: relative;
+        z-index: 1;
+    }
+    .impact-promise::after {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.7);
+        content: ' ';
+        top: 0;
+        left: 0;
+        z-index: -1;
+    }
+    .impact-promise .container > div {
+        background: none;
+        max-width: 100%;
+        padding-right: 10px;
+        padding-left: 10px;
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+    .impact-promise h2 {
+        font-size: 50px;
+    }
+    .dropdown-menu {
+        margin-top: 5px;
+        margin-left: 0;
+        margin-bottom: 5px;
+    }
+    .dropdown-menu li:first-child {
+        border-top: 0;
+    }
+    .navbar-collapse {
+        padding-top: 20px;
+    }
+    li.nav-item {
+        margin-bottom: 7px;
+    }
+    .btn-green {
+        font-size: 17px;
+        min-width: 150px;
+        min-height: 50px;
+    }
+    .ready-to-rent {
+        background: #1a1818;
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+    .footer-widget {
+        max-width: 272px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+@media (max-width: 767.98px) {
+    .welcome-video h2 {
+        font-size: 45px;
+    }
+    .rental-equipment h3 {
+        font-size: 40px;
+    }
+    .rental-equipment form {
+        flex-wrap: wrap;
+    }
+    .rental-equipment form input {
+        margin-bottom: 15px;
+        margin-top: 20px;
+    }
+    .ready-to-rent {
+        padding-top: 70px;
+        padding-bottom: 70px;
+    }
+    .ready-to-rent h2 {
+        font-size: 47px;
+    }
+    .equipment-categories .ec-item {
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        max-width: 465px;
+    }
+    .impact-promise h2 {
+        font-size: 45px;
+    }
+    .impact-promise p {
+        font-size: 16.5px;
+    }
+}
+@media (max-width: 575.98px) {
+    .welcome-video video {
+        height: 500px;
+    }
+    .welcome-video h2 {
+        font-size: 35px;
+    }
+    .welcome-video .welcome-content p {
+        font-size: 17px;
+    }
+    .welcome-video .play-btn {
+        bottom: 25px;
+        right: 20px;
+        font-size: 13.5px;
+    }
+    .welcome-video .play-btn img {
+        width: 30px;
+    }
+}
+@media (max-width: 479.98px) {
+    .welcome-video h2 {
+        font-size: 30px;
+    }
+    .welcome-video .welcome-content .container {
+        margin-top: -70px;
+    }
+    .welcome-video .scroll-btn {
+        bottom: 60px;
+        margin-left: -5px;
+    }
+    .welcome-video .scroll-btn img {
+        width: 45px;
+    }
+    .equipment-categories .container {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .footer-widget {
+        max-width: 100%;
+    }
+}
+@media (max-width: 405.98px) {
+    .ready-to-rent .btn:last-child {
+        font-size: 17px;
+        min-width: 160px;
+        margin-left: 0 !important;
+        margin-top: 10px;
+    }
+} /*# sourceMappingURL=style.css.map */
